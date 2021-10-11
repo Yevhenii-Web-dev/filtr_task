@@ -1,2 +1,59 @@
-@import '_fonts';
-@import '_reset';
+@import "_fonts";
+@import "_reset";
+
+.table {
+   &__body {
+      
+      
+   }
+   &__content{
+      display: flex;
+      li {
+         margin: 15px;
+         display: block;
+      }
+   }
+   .--profession{
+      li {
+         margin: 15px;
+      }
+   }
+   &__names {
+   }
+   &__surnames {
+   }
+   &__departmens {
+   }
+   &__solary {
+   }
+   &__currency {
+   }
+}
+
+
+
+
+
+
+
+
+
+
+.content {
+}
+.container {
+}
+.search {
+   &__title {
+   }
+   &__body {
+   }
+   &__person {
+   }
+   &__out {
+   }
+   &__outt {
+   }
+   &__btn {
+   }
+}
