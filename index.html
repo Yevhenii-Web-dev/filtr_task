@@ -10,76 +10,33 @@
 </head>
 
 <body>
-   <div class="table">
+   <div class="wrapper">
       <main class="content">
          <section class="table">
             <div class="container">
                <table class="table__main">
-                  <caption class="table__title"></caption>
-                  <thead>
-                     <tr class="table__titles">
-                        <th scope="col">Imie</th>
-                        <th scope="col">Nazwisko</th>
-                        <th scope="col">Dzial</th>
-                        <th scope="col">WynKwota</th>
-                        <th scope="col">WynWaluta</th>
-                     </tr>
-                  </thead>
-                  <tbody class="table__body">
-                     <tr class="table__items">
-                        <td class="table__names">1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                        <td>5</td>
-                     </tr>
-                     <tr class="table__items">
-                        <td class="table__names">1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                        <td>5</td>
-                     </tr>
-                     
-                  </tbody>
-                  <tfoot class="table__footer">
-                     <tr class="table__items">
-                        <td></td>
-                        <td></td>
-                     </tr>
-                  </tfoot>
                </table>
-               <!--<div class="table__body">
-                  <div class="table__content">
-                     <ul class="table__names">imie</ul>
-                     <ul class="table__surnames">nazwisko</ul>
-                     <ul class="table__departmens">dzial</ul>
-                     <ul class="table__solary">wynagrodzenieKwota</ul>
-                     <ul class="table__currency">wynagrodzenieWaluta</ul>
-                  </div>
-                  <div class="table__footer">
-                     <ul class="table__departmens --profession">dzialy</ul>
-                     <ul class="table__summ">summ</ul>
-                  </div>
-               </div>-->
-
             </div>
          </section>
 
 
          <section class="search">
-            <div class="container">
+            <div class="search__container">
                <div class="search__title"></div>
                <div class="search__body">
-                  <input class="search__person" type="text">
-                  <input class="search__out" type="text">
-                  <div class="search__outt"></div>
+                  <input class="search__person" placeholder="search person" type="text">
+                  <a href="#!" class="search__btn"></a>
                </div>
-
-               <button class="search__btn">search</button>
+               <div class="add-person">
+                  <label>Imie<input class="input__name" type="text"></label>
+                  <label>Nazwisko<input class="input__last-name" type="text"></label>
+                  <label>Dzial<input class="input__department" type="text"></label>
+                  <label>wynagrodzenieKwota<input class="input__amount" type="number"></label>
+                  <label>wynagrodzenieWaluta<input class="input__currency" type="text"></label>
+                  <button class="btn__add-person">ADD PERSON</button>
+               </div>
             </div>
          </section>
-
       </main>
    </div>
 
